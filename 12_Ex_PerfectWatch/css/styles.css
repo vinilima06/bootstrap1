@@ -142,4 +142,30 @@ body {
 
 .navbar-toggler {
     font-size: 1.5em;
+
+}
+
+/* Estilos para placeholders em campos de input*/
+#search-form input:focus,
+#news-form input::placeholder {
+    color: #fff;
+}
+
+/* _____________________________________ */
+/* Estilos para a barra de navegação inferior (bottom-navbar) */
+
+/* Ajusta a posição dos itens na barra de navegação inferior */
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+/* Define cor do texto e links na barra de navegação inferior */
+#bottom-navbar-container a {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Define tamanho do ícone do botão para mostrar/esconder o menu */
+.navbar-toggler {
+    font-size: 1.5em;
 }
